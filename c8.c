@@ -1,3 +1,5 @@
+// TEST-File: Buffer-Overflow (bei Eingabe einer zu langen Benutzernamens)
+
 #include <stdio.h>
 
 int main()
