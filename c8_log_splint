@@ -1,0 +1,10 @@
+user@notebook:~/c8$ splint c8.c
+Splint 3.1.2 --- 20 Feb 2018
+
+c8.c: (in function main)
+c8.c:10:5: Return value (type int) ignored: scanf("%s", user...
+  Result returned by function call is not used. If this is intended, can cast
+  result to (void) to eliminate message. (Use -retvalint to inhibit warning)
+
+Finished checking --- 1 code warning
+

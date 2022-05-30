@@ -1,0 +1,8 @@
+user@notebook:~/c8$ cpplint c8.c
+c8.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+c8.c:6:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+c8.c:8:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+c8.c:12:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+Done processing c8.c
+Total errors found: 4
+
